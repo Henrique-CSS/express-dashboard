@@ -12,7 +12,7 @@ app.set('views', './views');
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.all('/', (req, res) => {
-  res.render('index', { title: "Dashboard" });
+  res.sendFile('index.html');
 })
 
 app.listen(port, () => {
