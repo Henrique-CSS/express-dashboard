@@ -1,0 +1,12 @@
+{
+    "Atibaia": {
+        "name": "Atibaia",
+        "val": 30000,
+        "val2": 4000
+    },
+    "BRAGA": {
+        "name": "Bragança",
+        "Ocu": 30000,
+        "Disp": 4000
+    }
+}

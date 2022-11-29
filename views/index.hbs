@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="row">
+        <div class="col widget shadow">
+            <p class="title">
+                Financeiro:
+            </p>
+            <canvas id="financialChart" class="finChart"></canvas>
+        </div>
+        <div class="col widget shadow">
+            <div class="row">
+                <div class="mx-auto d-block"><img width="128px" src="https://fakeimg.pl/200/"
+                        class="user_img mx-auto d-block" alt="Imagem de usuário"></div>
+            </div>
+            <div class="row text-center welcome">
+                <h3>
+                    Bem-vindo, usuário.
+                </h3>
+                <p>
+                    Nessa dashboard você pode ver vários dados sobre sua empresa.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col widget shadow">
+            <p class="title">
+                Contrato por tipo:
+            </p>
+            <div><canvas id="ContratPorTipo"></canvas></div>
+        </div>
+        <div class="col widget shadow">
+            <p class="title">
+                Contrato por tipo:
+            </p>
+            <div><canvas id="Atendimentos"></canvas></div>
+        </div>
+        <div class="col widget shadow">
+            <p class="title">
+                Linhas ocupadas/disponíveis:
+            </p>
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="selectCity">Cidade:</label>
+                <select class="form-select" id="selectCity">
+                    <option value="0" selected>Todas</option>
+                </select>
+            </div>
+            <div class="auto" id="usersDiv" style="position: relative; height:30vh">
+                <canvas id="users"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+<p>Made by <a class="link-secondary" href="https://github.com/Henrique-CSS">Henrique Souza</a></p>
+<script src="/javascripts/dashboard.js"></script>
