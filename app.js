@@ -1,6 +1,5 @@
 const path = require('path');
 const express = require('express')
-const { engine } = require('express-handlebars')
 const app = express()
 const port = 3000
 
